@@ -1,4 +1,4 @@
-# Caesar Cipher Encryption and Decryption
+    # Caesar Cipher Encryption and Decryption
     def caesar_cipher(message, key, mode='encrypt'):
     result = ''
     key = int(key) % 26  # Key should wrap around in case it's larger than 26
@@ -16,7 +16,7 @@
     return result
 
 
-# Vigenère Cipher Encryption and Decryption
+    # Vigenère Cipher Encryption and Decryption
     def vigenere_cipher(message, key, mode='encrypt'):
     result = ''
     key = key.lower()  # Ensuring the key is in lowercase
@@ -40,7 +40,7 @@
     return result
 
 
-# Main program
+    # Main program
     def main():
     print("Choose Cipher Type: ")
     print("1. Caesar Cipher")
